@@ -1,32 +1,29 @@
-# Portifólio Analista de Dados | Análise Exploratória De Dados
-
 <div align="center">
+    <h1>Exploração Nutricional do Menu do McDonald's</h1>
+    
+  <img src="https://github.com/marcos-anjos/Data-Analytics-Portifolio---EAD-McDonald-s-Nutrition-Facts/assets/160321440/591915ec-6d86-4dfe-b38a-88927f0b83c6" />
 
-![R](https://github.com/marcos-anjos/Data-Analytics-Portifolio---EAD-McDonald-s-Nutrition-Facts/assets/160321440/591915ec-6d86-4dfe-b38a-88927f0b83c6)
-
-
-<div align="center">
-
-![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)
-<a href="#"><img alt="Python" src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue"></a>
-<a href="#"><img alt="JUPYTER" src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white"></a>
-</div>
-
-  <h3 align="center">Análise Exploratória De Dados</h3>
-
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
+  <div align="center">
+        <img alt="Kaggle" src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white" />
+        <a href="#"><img alt="Python" src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue"></a>
+        <a href="#"><img alt="JUPYTER" src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white"></a>
     </div>
+
+<h3>Análise Exploratória De Dados</h3>
+
+  <p>O projeto consiste em uma análise exploratória dos dados nutricionais do menu do McDonald's, utilizando técnicas de limpeza, visualização e análise de dados.</p>
+  
 </div>
 
-## 📋 <a name="table">Súmario</a>
+## <a name="table">Súmario</a>
 
-1. 🤖 [Introdução](#introduction)
-2. ⚙️ [Objetivo do Projetok](#tech-stack)
-3. 🔋 [Sobre o Dataset](#features)
+1. [Introdução](#introdução)
+2. [Objetivo do Projeto](#tech-stack)
+3. [Sobre o Dataset](#features)
 
 
-## <a name="introdução">🤖 Introdução</a>
+
+## <a name="introdução">Introdução</a>
 
 <body>
     <p style="text-align: justify;">
