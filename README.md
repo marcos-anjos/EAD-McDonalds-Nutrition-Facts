@@ -20,8 +20,7 @@
 1. [Introdução](#introdução)
 2. [Objetivo do Projeto](#tech-stack)
 3. [Sobre o Dataset](#features)
-
-
+4. [Contato](#contato)
 
 ## <a name="introdução">Introdução</a>
 
@@ -44,6 +43,8 @@
 
 Este conjunto de dados fornece os factos nutricionais de cada item do menu do McDonald's indiano. Os itens do menu e os dados nutricionais foram retirados do sítio Web da McDonald's.
 
+Fonte:
+
 - `Categoria do menu`: A categoria a que pertence o item de menu específico.
 - **`Itens do menu`**: Lista dos produtos disponíveis para consumo no menu.
 - **`Tamanho por dose`**: Quantidade padrão de cada item do menu, medida em gramas (g) ou mililitros (mL).
@@ -56,4 +57,7 @@ Este conjunto de dados fornece os factos nutricionais de cada item do menu do Mc
 - **`Hidratos de carbono totais (g)`**: Principal fonte de energia do organismo, que alimenta os órgãos vitais.
 - **`Açúcares totais (g)`**: Quantidade total de açúcares presentes nos alimentos, incluindo açúcares naturais e adicionados.
 - **`Açúcares adicionados (g)`**: Açúcares adicionados aos alimentos, que podem afetar a sensação de fome e saciedade de forma menos significativa.
-- **`Sódio (mg)`**: Nutriente que, em excesso, pode contribuir para a retenção de líquidos e o aumento da pressão arterial.retenção de líquidos e o aumento da pressão arterial. 
+- **`Sódio (mg)`**: Nutriente que, em excesso, pode contribuir para a retenção de líquidos e o aumento da pressão arterial.retenção de líquidos e o aumento da pressão arterial.
+
+  ## <a name="contato">Contato</a>
+  Se tiver quaisquer perguntas, sugestões ou comentários sobre estes conjuntos de dados ou sobre este repositório, entre em contato.
