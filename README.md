@@ -54,7 +54,7 @@ Fonte:
 - **`Gordura saturada (g)`**: Tipo de gordura que, em excesso, pode aumentar o colesterol ruim e o risco de doenças cardíacas.
 - **`Gorduras trans (g)`**: Gorduras artificialmente transformadas que aumentam o risco de doenças cardíacas e AVC.
 - **`Colesteróis (mg)`**: Substância que auxilia na construção celular e na produção de hormônios, mas em excesso pode contribuir para o bloqueio das artérias.
-- **`Hidratos de carbono totais (g)`**: Principal fonte de energia do organismo, que alimenta os órgãos vitais.
+- **`Carboidratos (g)`**: Principal fonte de energia do organismo, que alimenta os órgãos vitais.
 - **`Açúcares totais (g)`**: Quantidade total de açúcares presentes nos alimentos, incluindo açúcares naturais e adicionados.
 - **`Açúcares adicionados (g)`**: Açúcares adicionados aos alimentos, que podem afetar a sensação de fome e saciedade de forma menos significativa.
 - **`Sódio (mg)`**: Nutriente que, em excesso, pode contribuir para a retenção de líquidos e o aumento da pressão arterial.retenção de líquidos e o aumento da pressão arterial.
