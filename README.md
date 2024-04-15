@@ -47,7 +47,7 @@
 
 Este conjunto de dados fornece os factos nutricionais de cada item do menu do McDonald's indiano. Os itens do menu e os dados nutricionais foram retirados do sítio Web da McDonald's.
 
-- **Categoria do menu**:Categorização dos itens do menu, incluindo Regular, Pequeno-almoço, McCafe, Sobremesas, Gourmet, Bebidas e Condimentos.
+- **Categoria do menu**: A categoria a que pertence o item de menu específico.
 - **Itens do menu**: Lista dos produtos disponíveis para consumo no menu.
 - **Tamanho por dose**: Quantidade padrão de cada item do menu, medida em gramas (g) ou mililitros (mL).
 - **Energia (kCal)**: Unidade de medida que quantifica a energia contida nos alimentos, em calorias (kCal).
