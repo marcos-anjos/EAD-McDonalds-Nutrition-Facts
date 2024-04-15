@@ -44,16 +44,16 @@
 
 Este conjunto de dados fornece os factos nutricionais de cada item do menu do McDonald's indiano. Os itens do menu e os dados nutricionais foram retirados do sítio Web da McDonald's.
 
-- **Categoria do menu**: A categoria a que pertence o item de menu específico.
-- **Itens do menu**: Lista dos produtos disponíveis para consumo no menu.
-- **Tamanho por dose**: Quantidade padrão de cada item do menu, medida em gramas (g) ou mililitros (mL).
-- **Energia (kCal)**: Unidade de medida que quantifica a energia contida nos alimentos, em calorias (kCal).
-- **Proteína (g)**: Nutriente essencial para aumentar a saciedade e favorecer a perda de peso.
-- **Gordura total (g)**:  Nutriente que contribui para a sensação de saciedade e pode proteger contra doenças cardíacas.
-- **Gordura saturada (g)**: Tipo de gordura que, em excesso, pode aumentar o colesterol ruim e o risco de doenças cardíacas.
-- **Gorduras trans (g)**: Gorduras artificialmente transformadas que aumentam o risco de doenças cardíacas e AVC.
-- **Colesteróis (mg)**: Substância que auxilia na construção celular e na produção de hormônios, mas em excesso pode contribuir para o bloqueio das artérias.
-- **Hidratos de carbono totais (g)**: Principal fonte de energia do organismo, que alimenta os órgãos vitais.
-- **Açúcares totais (g)**: Quantidade total de açúcares presentes nos alimentos, incluindo açúcares naturais e adicionados.
-- **Açúcares adicionados (g)**: Açúcares adicionados aos alimentos, que podem afetar a sensação de fome e saciedade de forma menos significativa.
-- **Sódio (mg)**: Nutriente que, em excesso, pode contribuir para a retenção de líquidos e o aumento da pressão arterial.retenção de líquidos e o aumento da pressão arterial. 
+- `Categoria do menu`: A categoria a que pertence o item de menu específico.
+- **`Itens do menu`**: Lista dos produtos disponíveis para consumo no menu.
+- **`Tamanho por dose`**: Quantidade padrão de cada item do menu, medida em gramas (g) ou mililitros (mL).
+- **`Energia (kCal)`**: Unidade de medida que quantifica a energia contida nos alimentos, em calorias (kCal).
+- **`Proteína (g)`**: Nutriente essencial para aumentar a saciedade e favorecer a perda de peso.
+- **`Gordura total (g)`**:  Nutriente que contribui para a sensação de saciedade e pode proteger contra doenças cardíacas.
+- **`Gordura saturada (g)`**: Tipo de gordura que, em excesso, pode aumentar o colesterol ruim e o risco de doenças cardíacas.
+- **`Gorduras trans (g)`**: Gorduras artificialmente transformadas que aumentam o risco de doenças cardíacas e AVC.
+- **`Colesteróis (mg)`**: Substância que auxilia na construção celular e na produção de hormônios, mas em excesso pode contribuir para o bloqueio das artérias.
+- **`Hidratos de carbono totais (g)`**: Principal fonte de energia do organismo, que alimenta os órgãos vitais.
+- **`Açúcares totais (g)`**: Quantidade total de açúcares presentes nos alimentos, incluindo açúcares naturais e adicionados.
+- **`Açúcares adicionados (g)`**: Açúcares adicionados aos alimentos, que podem afetar a sensação de fome e saciedade de forma menos significativa.
+- **`Sódio (mg)`**: Nutriente que, em excesso, pode contribuir para a retenção de líquidos e o aumento da pressão arterial.retenção de líquidos e o aumento da pressão arterial. 
