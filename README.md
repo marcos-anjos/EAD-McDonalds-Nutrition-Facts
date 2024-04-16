@@ -43,7 +43,7 @@
 
 Este conjunto de dados fornece os factos nutricionais de cada item do menu do McDonald's indiano. Os itens do menu e os dados nutricionais foram retirados do sítio Web da McDonald's.
 
-Fonte:
+Fonte: [Kaggle | Menu Nutrition Dataset](https://www.kaggle.com/datasets/deepcontractor/mcdonalds-india-menu-nutrition-facts)
 
 - `Categoria do menu`: A categoria a que pertence o item de menu específico.
 - **`Itens do menu`**: Lista dos produtos disponíveis para consumo no menu.
