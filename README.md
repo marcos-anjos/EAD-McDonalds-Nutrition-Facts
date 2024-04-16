@@ -20,13 +20,15 @@
 1. [Introdução](#introdução)
 2. [Objetivo do Projeto](#tech-stack)
 3. [Sobre o Dataset](#features)
-4. [Contato](#contato)
+4. [Limpeza dos Dados](#contato)
+5. [Análise Exploratória de Dados](#contato)
+6. [Conclusões](#contato)
 
 ## <a name="introdução">Introdução</a>
 
 <body>
     <p style="text-align: justify;">
-        A indústria alimentícia desempenha um papel significativo na vida cotidiana das pessoas em todo o mundo, e as escolhas alimentares têm um impacto direto na saúde e no bem-estar. Nesse contexto, entender a composição nutricional dos alimentos oferecidos por grandes cadeias de restaurantes, como o McDonald's, é crucial para os consumidores, profissionais de saúde e formuladores de políticas públicas. A análise exploratória do conjunto de dados do McDonald's Nutrition Facts visa investigar e compreender os padrões nutricionais dos alimentos disponíveis neste renomado restaurante de fast food.
+        Este repositório contém um notebook Jupyter detalhando uma análise exploratória de dados do conjunto de dados "Menu Nutrition Dataset" obtido do Kaggle. O objetivo deste notebook é explorar e visualizar os dados relacionados à nutrição de itens de menu de uma determinada empresa de fast food.
     </p>
 </body>
 
@@ -34,30 +36,46 @@
 
 <body>
     <p style="text-align: justify;">
-        O objetivo principal desta análise é investigar e analisar os padrões nutricionais dos itens do menu do McDonald's. Isso envolve identificar os principais nutrientes presentes, avaliar a variação nos valores nutricionais entre os produtos e examinar como essas informações se alinham com as diretrizes dietéticas recomendadas. O propósito é fornecer informações valiosas para os consumidores fazerem escolhas alimentares mais conscientes e informadas. Além disso, essa análise pode resultar na identificação de oportunidades para otimizar a composição nutricional dos alimentos oferecidos pelo McDonald's. Também pode inspirar a inovação de produtos e diferenciar-se no mercado por meio de opções de menu únicas e saudáveis.
+        O objetivo deste projeto de análise exploratória de dados é examinar o conjunto de dados do Menu de Nutrição e identificar padrões, tendências e insights relevantes sobre a composição nutricional dos itens do menu de uma empresa de fast food. A análise visa proporcionar uma compreensão mais profunda das características dos produtos oferecidos, como calorias, proteínas, gorduras, carboidratos e sódio, além de fornecer insights sobre a distribuição dessas variáveis em diferentes categorias de menu. Essas informações podem ser úteis para a empresa em termos de tomada de decisões estratégicas relacionadas ao desenvolvimento de novos produtos, otimização do menu existente, comunicação nutricional e atendimento às demandas dos consumidores por opções alimentares mais saudáveis.
     </p>
 </body>
 
 
 ## <a name="features">Sobre o Dataset</a>
 
-Este conjunto de dados fornece os factos nutricionais de cada item do menu do McDonald's indiano. Os itens do menu e os dados nutricionais foram retirados do sítio Web da McDonald's.
+Este conjunto de dados fornece os factos nutricionais de cada item do menu do McDonald's indiano. Eles possuem 141 entradas e 13 colunas, sendo 10 do tipo numérico e 3 do tipo categórico. Algumas das colunas incluem:
 
 Fonte: [Kaggle | Menu Nutrition Dataset](https://www.kaggle.com/datasets/deepcontractor/mcdonalds-india-menu-nutrition-facts)
 
-- `Categoria do menu`: A categoria a que pertence o item de menu específico.
-- **`Itens do menu`**: Lista dos produtos disponíveis para consumo no menu.
-- **`Tamanho por dose`**: Quantidade padrão de cada item do menu, medida em gramas (g) ou mililitros (mL).
-- **`Energia (kCal)`**: Unidade de medida que quantifica a energia contida nos alimentos, em calorias (kCal).
-- **`Proteína (g)`**: Nutriente essencial para aumentar a saciedade e favorecer a perda de peso.
-- **`Gordura total (g)`**:  Nutriente que contribui para a sensação de saciedade e pode proteger contra doenças cardíacas.
-- **`Gordura saturada (g)`**: Tipo de gordura que, em excesso, pode aumentar o colesterol ruim e o risco de doenças cardíacas.
-- **`Gorduras trans (g)`**: Gorduras artificialmente transformadas que aumentam o risco de doenças cardíacas e AVC.
-- **`Colesteróis (mg)`**: Substância que auxilia na construção celular e na produção de hormônios, mas em excesso pode contribuir para o bloqueio das artérias.
-- **`Carboidratos (g)`**: Principal fonte de energia do organismo, que alimenta os órgãos vitais.
-- **`Açúcares totais (g)`**: Quantidade total de açúcares presentes nos alimentos, incluindo açúcares naturais e adicionados.
-- **`Açúcares adicionados (g)`**: Açúcares adicionados aos alimentos, que podem afetar a sensação de fome e saciedade de forma menos significativa.
-- **`Sódio (mg)`**: Nutriente que, em excesso, pode contribuir para a retenção de líquidos e o aumento da pressão arterial.retenção de líquidos e o aumento da pressão arterial.
+- `Categoria do menu`
+- **`Itens do menu`**
+- **`Tamanho por dose`**
+- **`Energia (kCal)`**
+- **`Proteína (g)`**
+- **`Gordura total (g)`**
+- **`Gordura saturada (g)`**
+- **`Gorduras trans (g)`**
+- **`Colesteróis (mg)`**
+- **`Carboidratos (g)`**
+- **`Açúcares totais (g)`**
+- **`Açúcares adicionados (g)`**
+- **`Sódio (mg)`**
 
-  ## <a name="contato">Contato</a>
-  Se tiver quaisquer perguntas, sugestões ou comentários sobre estes conjuntos de dados ou sobre este repositório, entre em contato.
+## <a name="contato">Limpeza dos Dados</a>
+- Verificação de valores nulos e sua correção.
+- Verificação de valores duplicados.
+- Preenchimento de valores nulos com a média
+
+## <a name="contato">Análise Exploratória de Dados</a>
+- Contagem de itens por categoria de menu.
+- Cálculo da média nutricional por categoria de menu.
+- Visualização da distribuição de energia (kCal) por categoria de menu.
+- Identificação de colunas com outliers e distribuição das variáveis nutricionais.
+- Cálculo da correlação entre as variáveis nutricionais e visualização em um mapa de calor.
+
+## <a name="contato">Conclusões</a>
+- "McCafe Menu" possui o maior número de itens, enquanto "Desserts Menu" possui o menor.
+- A categoria "Gourmet Menu" tem os maiores valores médios nutricionais.
+- A categoria "Breakfast Menu" também apresenta valores médios consideráveis.
+- A categoria "Beverages Menu" possui valores médios relativamente baixos.
+- As variáveis com maior correlação são "Energy (kCal)" e "Protein (g)".
