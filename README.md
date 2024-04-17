@@ -18,11 +18,11 @@
 ## <a name="table">Súmario</a>
 
 1. [Introdução](#introdução)
-2. [Objetivo do Projeto](#tech-stack)
-3. [Sobre o Dataset](#features)
-4. [Limpeza dos Dados](#contato)
-5. [Análise Exploratória de Dados](#contato)
-6. [Conclusões](#contato)
+2. [Objetivo do Projeto](#Objetivo)
+3. [Sobre o Dataset](#Dataset)
+4. [Limpeza dos Dados](#Limpeza)
+5. [Análise Exploratória de Dados](#Análise)
+6. [Conclusões](#Conclusões)
 
 ## <a name="introdução">Introdução</a>
 
@@ -32,7 +32,7 @@
     </p>
 </body>
 
-## <a name="tech-stack">Objetivo do Projeto</a>
+## <a name="Objetivo">Objetivo do Projeto</a>
 
 <body>
     <p style="text-align: justify;">
@@ -41,7 +41,7 @@
 </body>
 
 
-## <a name="features">Sobre o Dataset</a>
+## <a name="Dataset">Sobre o Dataset</a>
 
 Este conjunto de dados fornece os factos nutricionais de cada item do menu do McDonald's indiano. Eles possuem 141 entradas e 13 colunas, sendo 10 do tipo numérico e 3 do tipo categórico. Algumas das colunas incluem:
 
@@ -61,16 +61,16 @@ Fonte: [Kaggle | Menu Nutrition Dataset](https://www.kaggle.com/datasets/deepcon
 - **`Açúcares adicionados (g)`**
 - **`Sódio (mg)`**
 
-## <a name="contato">Limpeza dos Dados</a>
+## <a name="Limpeza">Limpeza dos Dados</a>
 - Verificação de valores nulos e sua correção.
 - Verificação de valores duplicados.
 - Preenchimento de valores nulos com a média
 
-## <a name="contato">Análise Exploratória de Dados</a>
+## <a name="Análise">Análise Exploratória de Dados</a>
 - Contagem de itens por categoria de menu, visualizando essas contagens em um gráfico de barras para identificar as categorias mais comuns.
 - Identificação dos cinco principais itens em várias métricas nutricionais, como calorias, proteínas, gorduras, carboidratos, açúcares e sódio. Visualizamos esses resultados em gráficos de barras para uma compreensão clara.
 
-## <a name="contato">Conclusões</a>
+## <a name="Conclusões">Conclusões</a>
 - Identificamos as categorias de menu mais comuns e a distribuição de itens em cada uma delas. Isso nos permitiu entender melhor a variedade de opções disponíveis para os clientes.
 - Ao analisar os itens com maiores quantidades de calorias, proteínas, gorduras, carboidratos, açúcares e sódio, pudemos destacar os itens que podem ter impacto significativo na ingestão diária desses nutrientes.
 - Os gráficos de barras nos permitiram visualizar facilmente os principais itens em cada categoria, facilitando a compreensão das tendências nutricionais.
