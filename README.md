@@ -36,7 +36,7 @@
 
 <body>
     <p style="text-align: justify;">
-        O objetivo deste projeto de análise exploratória de dados é examinar o conjunto de dados do Menu de Nutrição e identificar padrões, tendências e insights relevantes sobre a composição nutricional dos itens do menu de uma empresa de fast food. A análise visa proporcionar uma compreensão mais profunda das características dos produtos oferecidos, como calorias, proteínas, gorduras, carboidratos e sódio, além de fornecer insights sobre a distribuição dessas variáveis em diferentes categorias de menu. Essas informações podem ser úteis para a empresa em termos de tomada de decisões estratégicas relacionadas ao desenvolvimento de novos produtos, otimização do menu existente, comunicação nutricional e atendimento às demandas dos consumidores por opções alimentares mais saudáveis.
+       O objetivo deste projeto é realizar uma análise exploratória dos dados do Menu Nutrition Dataset, disponível no Kaggle, a fim de entender a composição nutricional dos itens de menu de uma cadeia de fast food específica. Por meio dessa análise, buscamos identificar padrões, tendências e insights relevantes relacionados às características nutricionais dos alimentos oferecidos, como calorias, proteínas, gorduras, carboidratos, açúcares e sódio. O objetivo final é fornecer uma visão abrangente que possa auxiliar na tomada de decisões informadas pelos consumidores e na conscientização sobre escolhas alimentares saudáveis.
     </p>
 </body>
 
@@ -67,15 +67,12 @@ Fonte: [Kaggle | Menu Nutrition Dataset](https://www.kaggle.com/datasets/deepcon
 - Preenchimento de valores nulos com a média
 
 ## <a name="contato">Análise Exploratória de Dados</a>
-- Contagem de itens por categoria de menu.
-- Cálculo da média nutricional por categoria de menu.
-- Visualização da distribuição de energia (kCal) por categoria de menu.
-- Identificação de colunas com outliers e distribuição das variáveis nutricionais.
-- Cálculo da correlação entre as variáveis nutricionais e visualização em um mapa de calor.
+- Contagem de itens por categoria de menu, visualizando essas contagens em um gráfico de barras para identificar as categorias mais comuns.
+- Identificação dos cinco principais itens em várias métricas nutricionais, como calorias, proteínas, gorduras, carboidratos, açúcares e sódio. Visualizamos esses resultados em gráficos de barras para uma compreensão clara.
 
 ## <a name="contato">Conclusões</a>
-- "McCafe Menu" possui o maior número de itens, enquanto "Desserts Menu" possui o menor.
-- A categoria "Gourmet Menu" tem os maiores valores médios nutricionais.
-- A categoria "Breakfast Menu" também apresenta valores médios consideráveis.
-- A categoria "Beverages Menu" possui valores médios relativamente baixos.
-- As variáveis com maior correlação são "Energy (kCal)" e "Protein (g)".
+- Identificamos as categorias de menu mais comuns e a distribuição de itens em cada uma delas. Isso nos permitiu entender melhor a variedade de opções disponíveis para os clientes.
+- Ao analisar os itens com maiores quantidades de calorias, proteínas, gorduras, carboidratos, açúcares e sódio, pudemos destacar os itens que podem ter impacto significativo na ingestão diária desses nutrientes.
+- Os gráficos de barras nos permitiram visualizar facilmente os principais itens em cada categoria, facilitando a compreensão das tendências nutricionais.
+
+É importante notar que, embora esses dados forneçam informações valiosas, devemos interpretá-los com cautela. A análise nutricional de itens de fast food é apenas uma parte da equação quando se trata de fazer escolhas alimentares saudáveis. Outros fatores, como tamanho das porções, ingredientes e preparação dos alimentos, também desempenham um papel importante na saúde geral.
