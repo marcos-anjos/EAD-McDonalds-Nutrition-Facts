@@ -68,7 +68,7 @@ Fonte: [Kaggle | Menu Nutrition Dataset](https://www.kaggle.com/datasets/deepcon
 
 ## <a name="Análise">Análise Exploratória de Dados</a>
 - Contagem de itens por categoria de menu, visualizando essas contagens em um gráfico de barras para identificar as categorias mais comuns.
-- Identificação dos cinco principais itens em várias métricas nutricionais, como calorias, proteínas, gorduras, carboidratos, açúcares e sódio. Visualizamos esses resultados em gráficos de barras para uma compreensão clara.
+- Identificação dos cinco principais itens em várias métricas nutricionais, como calorias, proteínas, gorduras, carboidratos, açúcares e sódio. Visualizamos esses resultados em gráficos de barras para uma compreensão clara. Destacando áreas de foco para os consumidores preocupados com a saúde e fornecendo insights valiosos para tomada de decisão informada sobre escolhas alimentares.
 
 ## <a name="Conclusões">Conclusões</a>
 - Identificamos as categorias de menu mais comuns e a distribuição de itens em cada uma delas. Isso nos permitiu entender melhor a variedade de opções disponíveis para os clientes.
