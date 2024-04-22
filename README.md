@@ -47,19 +47,19 @@ Este conjunto de dados fornece os factos nutricionais de cada item do menu do Mc
 
 Fonte: [Kaggle | Menu Nutrition Dataset](https://www.kaggle.com/datasets/deepcontractor/mcdonalds-india-menu-nutrition-facts)
 
-- `Categoria do menu`
-- **`Itens do menu`**
-- **`Tamanho por dose`**
-- **`Energia (kCal)`**
-- **`Proteína (g)`**
-- **`Gordura total (g)`**
-- **`Gordura saturada (g)`**
-- **`Gorduras trans (g)`**
-- **`Colesteróis (mg)`**
-- **`Carboidratos (g)`**
-- **`Açúcares totais (g)`**
-- **`Açúcares adicionados (g)`**
-- **`Sódio (mg)`**
+- `Categoria do menu`: A categoria a que pertence o item de menu específico.
+- **`Itens do menu`**: A lista de todos os itens servidos
+- **`Tamanho por dose`**: A quantidade (em g ou ml) de um determinado item de menu servido.
+- **`Energia (kCal)`**: A quantidade de energia (kCal) por porção
+- **`Proteína (g)`**: A quantidade de proteína (g) por porção
+- **`Gordura total (g)`**: A quantidade de gordura total (g) por porção
+- **`Gordura saturada (g)`**: A quantidade de gordura saturada (g) por porção
+- **`Gorduras trans (g)`**: A quantidade de gordura trans (g) por porção
+- **`Colesteróis (mg)`**: A quantidade de colestrol (mg) por porção
+- **`Carboidratos (g)`**: A quantidade de hidratos de carbono (g) por porção
+- **`Açúcares totais (g)`**: A quantidade de Açúcares totais (g) por porção
+- **`Açúcares adicionados (g)`**: A quantidade de Açúcares adicionados (g) por porção
+- **`Sódio (mg)`**: A quantidade de Sódio (mg) por porção
 
 ## <a name="Limpeza">Limpeza dos Dados</a>
 - Verificação de valores nulos e sua correção.
