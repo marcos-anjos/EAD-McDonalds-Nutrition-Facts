@@ -18,28 +18,26 @@
 ## <a name="table">Súmario</a>
 
 1. [Introdução](#introdução)
-2. [Objetivo do Projeto](#Objetivo)
+2. [Bibliotecas e Ferramentas Utilizadas](#Ferramentas)
 3. [Sobre o Dataset](#Dataset)
-4. [Limpeza dos Dados](#Limpeza)
-5. [Análise Exploratória de Dados](#Análise)
-6. [Conclusões](#Conclusões)
+4. [Análise Exploratória de Dados](#Análise)
+5. [Limitações](#Limitações)
 
 ## <a name="introdução">Introdução</a>
 
 <body>
     <p style="text-align: justify;">
-        Este repositório contém um notebook Jupyter detalhando uma análise exploratória de dados do conjunto de dados "Menu Nutrition Dataset" obtido do Kaggle. O objetivo deste notebook é explorar e visualizar os dados relacionados à nutrição de itens de menu de uma determinada empresa de fast food.
+        Este projeto visa realizar uma análise exploratória dos dados do Menu Nutrition Dataset, disponível no Kaggle. O conjunto de dados contém informações nutricionais de itens de menu de uma cadeia de fast food específica, incluindo calorias, proteínas, gorduras, carboidratos, açúcares, sódio, entre outros. O objetivo da análise é compreender a composição nutricional dos alimentos oferecidos e identificar padrões, tendências e insights relevantes que possam auxiliar na tomada de decisões informadas pelos consumidores e na conscientização sobre escolhas alimentares saudáveis.
     </p>
 </body>
 
-## <a name="Objetivo">Objetivo do Projeto</a>
+## <a name="Ferramentas">Bibliotecas e Ferramentas Utilizadas</a>
 
-<body>
-    <p style="text-align: justify;">
-       O objetivo deste projeto é realizar uma análise exploratória dos dados do Menu Nutrition Dataset, disponível no Kaggle, a fim de entender a composição nutricional dos itens de menu de uma cadeia de fast food específica. Por meio dessa análise, buscamos identificar padrões, tendências e insights relevantes relacionados às características nutricionais dos alimentos oferecidos, como calorias, proteínas, gorduras, carboidratos, açúcares e sódio. O objetivo final é fornecer uma visão abrangente que possa auxiliar na tomada de decisões informadas pelos consumidores e na conscientização sobre escolhas alimentares saudáveis.
-    </p>
-</body>
-
+- **Pandas**: Para manipulação e análise dos dados.
+- **Matplotlib e Seaborn**: Para visualização de dados.
+- **Python**: Linguagem de programação utilizada para desenvolver o código.
+- **Jupyter Notebook**: Ambiente de desenvolvimento utilizado para executar o código e documentar o processo de análise.
+   
 
 ## <a name="Dataset">Sobre o Dataset</a>
 
@@ -61,18 +59,21 @@ Fonte: [Kaggle | Menu Nutrition Dataset](https://www.kaggle.com/datasets/deepcon
 - **`Açúcares adicionados (g)`**: A quantidade de Açúcares adicionados (g) por porção
 - **`Sódio (mg)`**: A quantidade de Sódio (mg) por porção
 
-## <a name="Limpeza">Limpeza dos Dados</a>
-- Verificação de valores nulos e sua correção.
-- Verificação de valores duplicados.
-- Preenchimento de valores nulos com a média
 
 ## <a name="Análise">Análise Exploratória de Dados</a>
-- Contagem de itens por categoria de menu, visualizando essas contagens em um gráfico de barras para identificar as categorias mais comuns.
-- Identificação dos cinco principais itens em várias métricas nutricionais, como calorias, proteínas, gorduras, carboidratos, açúcares e sódio. Visualizamos esses resultados em gráficos de barras para uma compreensão clara. Destacando áreas de foco para os consumidores preocupados com a saúde e fornecendo insights valiosos para tomada de decisão informada sobre escolhas alimentares.
 
-## <a name="Conclusões">Conclusões</a>
-- Identificamos as categorias de menu mais comuns e a distribuição de itens em cada uma delas. Isso nos permitiu entender melhor a variedade de opções disponíveis para os clientes.
-- Ao analisar os itens com maiores quantidades de calorias, proteínas, gorduras, carboidratos, açúcares e sódio, pudemos destacar os itens que podem ter impacto significativo na ingestão diária desses nutrientes.
-- Os gráficos de barras nos permitiram visualizar facilmente os principais itens em cada categoria, facilitando a compreensão das tendências nutricionais.
+- Definição do Problema: Estabelecer os objetivos da análise e as perguntas de pesquisa a serem investigadas.
+- Coleta de Dados: Obter o conjunto de dados do Menu Nutrition Dataset do Kaggle.
+- Limpeza e Pré-processamento dos Dados: Realizar a limpeza dos dados, tratando valores ausentes, convertendo tipos de dados, e eliminando duplicatas, se necessário.
+- Análise Exploratória de Dados (AED): Explorar os dados através de gráficos, estatísticas descritivas e técnicas de visualização para identificar padrões, tendências e insights.
+- Interpretação dos Resultados: Analisar os resultados da AED e interpretar os insights obtidos, relacionando-os com os objetivos do projeto.
+- Comunicação dos Resultados: Comunicar as descobertas e insights através de visualizações de dados claras e interpretações significativas.
 
-É importante notar que, embora esses dados forneçam informações valiosas, devemos interpretá-los com cautela. A análise nutricional de itens de fast food é apenas uma parte da equação quando se trata de fazer escolhas alimentares saudáveis. Outros fatores, como tamanho das porções, ingredientes e preparação dos alimentos, também desempenham um papel importante na saúde geral.
+
+## <a name="Limitações">Limitações</a>
+
+- **Qualidade dos dados**:
+A qualidade dos dados pode variar, com possíveis erros de gravação, valores ausentes ou inconsistentes, o que pode afetar a precisão das análises.
+- **Limitações de escopo**:
+O projeto pode não abranger todas as dimensões relevantes da nutrição, deixando de fora aspectos importantes que poderiam influenciar as conclusões.
+- **Interpretação dos resultados**: Os resultados da análise exploratória podem fornecer insights, mas a interpretação dos resultados deve levar em consideração outras variáveis e contextos que não estão necessariamente refletidos nos dados.
