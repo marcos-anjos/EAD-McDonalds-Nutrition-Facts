@@ -77,3 +77,12 @@ O projeto pode não abranger todas as dimensões relevantes da nutrição, deixa
 - Comunicação dos Resultados: Comunicar as descobertas e insights através de visualizações de dados claras e interpretações significativas.
 
 ## <a name="Observações">Observações</a>
+Algumas das observações feitas foram:
+- Variedade de Itens por Categoria de Menu: Observamos uma variação significativa no número de itens em cada categoria de menu, o que pode refletir a diversidade de opções oferecidas pela cadeia de fast food em diferentes segmentos de mercado.
+- Perfil Nutricional dos Itens Mais Energéticos: Os cinco itens com maior quantidade de energia (kCal) geralmente apresentam um perfil nutricional mais rico em gorduras e carboidratos, o que pode indicar uma escolha popular para clientes que buscam refeições mais substanciais.
+- Relação entre Energia e Proteína: Notamos uma correlação positiva entre o teor de energia (kCal) e o teor de proteína (g) nos itens do menu, sugerindo que itens com maior teor de energia também tendem a ter maior quantidade de proteína.
+- Relações entre Nutrientes Específicos: Identificamos relações importantes entre certos nutrientes, como a associação entre a quantidade de gordura saturada e o colesterol, que podem ser relevantes para indivíduos que buscam monitorar sua ingestão desses componentes.
+  
+Essas observações fornecem uma visão da composição nutricional dos itens de menu da cadeia de fast food em estudo, destacando padrões e insights importantes que podem orientar escolhas alimentares informadas pelos consumidores.
+
+
