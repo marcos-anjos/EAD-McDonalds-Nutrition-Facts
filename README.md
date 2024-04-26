@@ -22,6 +22,7 @@
 3. [Sobre o Dataset](#Dataset)
 4. [Análise Exploratória de Dados](#Análise)
 5. [Limitações](#Limitações)
+6. [Insights](#Insights)
 
 ## <a name="introdução">Introdução</a>
 
@@ -77,3 +78,5 @@ A qualidade dos dados pode variar, com possíveis erros de gravação, valores a
 - **Limitações de escopo**:
 O projeto pode não abranger todas as dimensões relevantes da nutrição, deixando de fora aspectos importantes que poderiam influenciar as conclusões.
 - **Interpretação dos resultados**: Os resultados da análise exploratória podem fornecer insights, mas a interpretação dos resultados deve levar em consideração outras variáveis e contextos que não estão necessariamente refletidos nos dados.
+
+  ## <a name="Insights">Insights</a>
