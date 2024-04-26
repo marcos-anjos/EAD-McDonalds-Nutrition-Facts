@@ -21,8 +21,7 @@
 2. [Bibliotecas e Ferramentas Utilizadas](#Ferramentas)
 3. [Sobre o Dataset](#Dataset)
 4. [Análise Exploratória de Dados](#Análise)
-5. [Limitações](#Limitações)
-6. [Insights](#Insights)
+5. [Observações](#Observações)
 
 ## <a name="introdução">Introdução</a>
 
@@ -60,6 +59,13 @@ Fonte: [Kaggle | Menu Nutrition Dataset](https://www.kaggle.com/datasets/deepcon
 - **`Açúcares adicionados (g)`**: A quantidade de Açúcares adicionados (g) por porção
 - **`Sódio (mg)`**: A quantidade de Sódio (mg) por porção
 
+Limitações:
+
+- **Qualidade dos dados**:
+A qualidade dos dados pode variar, com possíveis erros de gravação, valores ausentes ou inconsistentes, o que pode afetar a precisão das análises.
+- **Limitações de escopo**:
+O projeto pode não abranger todas as dimensões relevantes da nutrição, deixando de fora aspectos importantes que poderiam influenciar as conclusões.
+- **Interpretação dos resultados**: Os resultados da análise exploratória podem fornecer insights, mas a interpretação dos resultados deve levar em consideração outras variáveis e contextos que não estão necessariamente refletidos nos dados.
 
 ## <a name="Análise">Análise Exploratória de Dados</a>
 
@@ -70,13 +76,4 @@ Fonte: [Kaggle | Menu Nutrition Dataset](https://www.kaggle.com/datasets/deepcon
 - Interpretação dos Resultados: Analisar os resultados da AED e interpretar os insights obtidos, relacionando-os com os objetivos do projeto.
 - Comunicação dos Resultados: Comunicar as descobertas e insights através de visualizações de dados claras e interpretações significativas.
 
-
-## <a name="Limitações">Limitações</a>
-
-- **Qualidade dos dados**:
-A qualidade dos dados pode variar, com possíveis erros de gravação, valores ausentes ou inconsistentes, o que pode afetar a precisão das análises.
-- **Limitações de escopo**:
-O projeto pode não abranger todas as dimensões relevantes da nutrição, deixando de fora aspectos importantes que poderiam influenciar as conclusões.
-- **Interpretação dos resultados**: Os resultados da análise exploratória podem fornecer insights, mas a interpretação dos resultados deve levar em consideração outras variáveis e contextos que não estão necessariamente refletidos nos dados.
-
-  ## <a name="Insights">Insights</a>
+## <a name="Observações">Observações</a>
