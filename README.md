@@ -15,6 +15,11 @@
   
 </div>
 
+<p align="center">  
+  <a href="https://github.com/marcos-anjos/EAD-McDonalds-Nutrition-Facts/blob/main/EAD%20McDonald%E2%80%99s%20Nutrition%20Facts.ipynb"><strong>Descubra os Insights Nutricionais🔍 »</strong></a>  
+  <br />  
+</p>
+
 ## <a name="table">Súmario</a>
 
 1. [Introdução](#introdução)
